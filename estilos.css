@@ -1,0 +1,60 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  margin: 20px 30px;
+  justify-content:space-between;
+  height: 40px;
+}
+
+.boton {
+  background-color: black;
+  border-radius: 20px;
+  width: 60px;
+  height: 50px; 
+  color: white;
+  font-weight: 900;
+  margin: -3px;
+}
+
+.cont {
+  display: flex;
+  vertical-align: middle;
+  border-radius: 400px;
+  align-self: auto;
+}
+
+.cont input {
+  width: 900px;
+  height: 50px;
+  background-color: #dee1e6;
+  border: 1px solid silver;
+  border-radius: 50px;
+  margin: -3px 10px;
+}
+
+.iconos {
+margin: -6px 10px 20px;
+}
+
+.grid-container {
+  display: initial;
+  grid-template-columns: repeat(auto fill, 300px);
+  gap: 100px;
+  justify-content: space-between;   
+}
+
+.grid-item { 
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
+  display:content;
+  border-radius: 30px;
+  margin: 10px;
+}
+
+
+
+
+  
+
+    
